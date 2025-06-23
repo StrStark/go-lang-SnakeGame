@@ -262,6 +262,10 @@ func createBoard() {
 			}
 		}
 		println()
+
+	}
+	for i := 0; i < Margin*3; i++ {
+		print("\n")
 	}
 }
 
